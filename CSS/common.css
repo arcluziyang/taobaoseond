@@ -1,0 +1,1170 @@
+/* 版心 */
+body {
+    background-color: #f4f4f4;
+}
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.fl {
+    float: left;
+    overflow: hidden;
+}
+
+.fr {
+    float: right;
+    overflow: hidden;
+}
+
+.style_red {
+    color: #ff4400;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 35px;
+    line-height: 35px;
+    background-color: #f5f5f5;
+}
+
+.shortcut ul li {
+    float: left;
+    font-size: 12px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.shortcut ul em {
+    float: left;
+    overflow: hidden;
+}
+
+.shortcut ul li:hover {
+    color: #ff4400;
+}
+
+/* 字体图标 */
+.icon-icon-test {
+    color: #9e9e9e;
+}
+
+.icon-gouwuche {
+    color: #ff4400;
+}
+
+.icon-star {
+    color: #c6c6c6;
+}
+
+em {
+    height: 7px;
+    color: #e2dddd;
+    margin-left: 24px;
+}
+
+/* 最上端广告 */
+.tp1 {
+    width: 1519.200px;
+    height: 70px;
+}
+
+.top2 {
+    height: 26px;
+    background-color: #fff;
+}
+
+/* header  头部制作 */
+.header {
+    position: relative;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 195px;
+    padding-top: 6px;
+    width: 178px;
+    height: 96px;
+}
+
+.logo a {
+    float: right;
+    /* display: block; */
+    width: 178px;
+    height: 85px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+    /* 让文字（淘宝首页）跑出界面 */
+    text-indent: -999px;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+/* .box1 {
+    height: 1px;
+    margin-top: 1px;
+    background-color: #ffffff;
+} */
+/* 搜索模块上面  */
+.searchTab {
+    width: 613px;
+    height: 21px;
+    margin: auto;
+    /* margin-top: 2px; */
+    border-color: #ff4400;
+}
+
+.searchTab li {
+    float: left;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0px 5px 0px 5px;
+    overflow: hidden;
+}
+
+.searchTab1 a {
+    border-radius: 7px;
+    background-color: #ff4400;
+    color: #f5f5f5;
+}
+
+/* 搜索模块 */
+.search {
+    width: 636px;
+    height: 40px;
+    border: 2px solid #ff5000;
+    margin: 0 auto;
+    padding: 0px 0px 6px 8px;
+    border-radius: 40px;
+}
+
+input {
+    float: left;
+    width: 472px;
+    height: 34px;
+    line-height: 26px;
+    padding: 5px 1px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+}
+
+.fixed {
+    height: 40px;
+    width: 620.6px;
+    border-radius: 20px;
+    border: 2px solid #ff5000;
+    background-color: #fff;
+    position: fixed;
+    left: 463px;
+    top: 7px;
+    box-shadow: none;
+    bottom: auto;
+    z-index: 1001;
+}
+
+.active {
+    height: 54px;
+    position: fixed;
+    width: 1519.200px;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out 0s;
+    background-color: #fff;
+}
+
+/* 搜索框里面的相机字体图标 */
+.search i {
+    /* float: left; */
+    margin-left: 31px;
+}
+
+.search .iconfont {
+    line-height: 35px;
+    font-size: 30px;
+    color: #adadad;
+}
+
+/* .search .icon-sousuo{
+    left: 20px;
+} */
+.sousuo {
+    float: right;
+    width: 74px;
+    height: 36px;
+    background-image: linear-gradient(to right, #ff8e00, #ff5300);
+    border: none;
+    outline: none;
+    border-radius: 0 36px 36px 0;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 宋体;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+
+/* 热词模块 */
+.hotwords {
+    width: 636px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 12px;
+
+}
+
+.hotwords a {
+    margin-left: 2px;
+}
+
+.dropdown {
+    float: left;
+    width: 192px;
+    height: 29.6px;
+    line-height: 29.6px;
+    background: #ff5000;
+    overflow: hidden;
+}
+/* 淘宝二维码下载 */
+.download {
+    /* position: absolute;
+    left:1200px ; */
+    float: right;
+    width: 68px;
+    height: 80px;
+    border: 1px solid #eeeeee;
+    margin: -67px 267px 0 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: 宋体;
+    color: #f40;
+    overflow: hidden;
+}
+
+.download img {
+    width: 53px;
+    margin-top: 3px;
+}
+
+.download .close-btn{
+    position: relative;
+    top: -67px;
+    left: -28px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ff5300;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ff5300;
+    cursor: pointer;
+}
+/* 主题市场 */
+h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* 导航栏项目 */
+
+.navitems {
+    width: 1190px;
+    height: 29.6px;
+    /* 渐变色背景 */
+    background-image: linear-gradient(to left, #ff5000, #ff8500);
+}
+.navitems .ictaobao {
+    position: absolute;
+    display: none;
+    color: #ff5000;
+    margin-top: -23px;
+    left: 370px;
+    /* background-color: #ff5000; */
+    font-size: 32px;
+}
+
+.navitems li {
+    float: left;
+    padding: 0px 5px;
+    margin-left: 9px;
+    line-height: 29.6px;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.navitems li a {
+    color: #ffffff;
+}
+
+/* 主体右侧导航栏 */
+.article-right {
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 192px;
+    border: 1px solid #ff5000;
+}
+
+/* 显示模块 */
+.clothes {
+    position: absolute;
+    margin-top: -1px;
+    left: 357px;
+    width: 535px;
+    height: 521px;
+    border: 2px solid #f94a14;
+    background-color: #ffe4dc;
+    z-index: 999;
+    display: none;
+}
+.clo1{    margin-top: -34px;
+}
+.clo2{    margin-top: -66px;
+}
+.clo3{    margin-top: -98px;
+}
+.clo4{    margin-top: -131px;
+}
+.clo5{    margin-top: -163px;
+}
+.clo6{    margin-top: -196px;
+}
+.clo7{    margin-top: -228px;
+}
+.clo8{    margin-top: -260px;
+}
+.clo9{    margin-top: -293px;
+}
+.clo10{    margin-top: -325px;
+}
+.clo11{    margin-top: -358px;
+}
+.clo12{    margin-top: -390px;
+}
+.clo13{    margin-top: -423px;
+}
+.clo14{    margin-top: -455px;
+}
+.clo15{    margin-top: -487px;
+}
+
+
+
+/* 主体右侧导航栏 */
+.article-right ul li {
+    padding: 0px 0px 2px 22px;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.article-right ul li:hover{
+    background-color: #ffe4dc;
+}
+.article-right ul li i {
+    float: right;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 轮播图 */
+.focus {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 520px;
+}
+
+/* 天猫部分轮播图 */
+.promo2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 520px;
+}
+
+.tmall {
+    float: left;
+    height: 100px;
+    margin-top: -17px;
+    margin-left: 10px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.tmall .iconfont {
+    font-size: 60px;
+}
+
+.tmall2 {
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.tmall2 .iconfont {
+    font-size: 14px;
+    color: #fb486e;
+}
+
+.tmall2 i {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* 轮播图2 */
+.lunbo2 {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.lunbo2 img {
+    width: 520px;
+    height: 201px;
+    margin-top: -54px;
+    border: 2px solid red;
+}
+
+.promo2 {
+    width: 160px;
+}
+
+.promo-down {
+    height: 45px;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a1a1a1;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+/* 登录模块制作 */
+.article2 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 290px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* 登录模块 */
+.enroll {
+    height: 90px;
+}
+
+.touxiang {
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+}
+
+.touxiang img {
+    border-radius: 50px;
+}
+
+.nihao {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tjb {
+    margin: 0 26px;
+}
+
+.tjb a {
+    padding: 0 5px;
+    background-color: #ffe4db;
+    font-size: 14px;
+    border-radius: 13px;
+}
+
+.tjb a .iconfont {
+    color: #ffc916;
+}
+
+.tjb a span {
+    font-weight: 300;
+    color: #ff5000;
+}
+
+.anniu {
+    padding: 0px 1px;
+}
+
+.anniu button {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 78px;
+    height: 25px;
+    line-height: 25px;
+    border: 0;
+    background-color: #ff5501;
+    color: #f5f5f5;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.jubao {
+    height: 27px;
+    margin-top: 48px;
+    background-color: #ffe4dd;
+}
+
+.jubao a {
+    margin-left: 73px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #ff4400;
+}
+
+.jubao a .iconfont {
+    font-size: 13px;
+}
+
+.jubao a i {
+    float: right;
+    margin-right: 36px;
+    overflow: hidden;
+}
+
+/* 公告牌 */
+.notice-hd {
+    margin-top: 17px;
+    
+}
+
+.notice-hd li a {
+    margin: 1px 11px;
+    font-size: 13px;
+}
+
+.notice-hd li a:first-child {
+    border-bottom: 2px solid red;
+    /* 变成黑体字 */
+}
+
+.notice-bd {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.notice-bd li a {
+    float: left;
+    margin-left: 5px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: STSong;
+    overflow: hidden;
+}
+
+.notice-bd1 a {
+    color: #ff5000;
+}
+
+/* 精灵图 */
+.spirit {
+    margin-top: 13px;
+    overflow: hidden;
+}
+
+.spirit-up,
+.spirit-down {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 77px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    overflow: hidden;
+}
+
+.spirit-up li,
+.spirit-down li {
+    float: left;
+    padding: 14px 18px 14px 21px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.spirit-down li {
+    padding: 14px 18px 14px 24px;
+}
+
+.spirit-up li .iconfont,
+.spirit-down li .iconfont {
+    font-size: 24px;
+}
+
+.spirit-down li p,
+.spirit-up li p {
+    font-size: 13px;
+}
+
+.huafei {
+    color: #c6b6ff;
+}
+
+.feizhu {
+    color: #ffc83e;
+}
+
+.chexian {
+    color: #27d6ca;
+}
+
+.youxi {
+    color: #aec703;
+}
+
+.caipiao {
+    color: #cd9184;
+}
+
+.move {
+    color: #fe59d7;
+}
+
+.hotel {
+    color: #f2cd61;
+}
+
+.licai {
+    color: #997aff;
+}
+
+/* 阿里app */
+.aliapp {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.aliapp h3 {
+    float: left;
+    padding-left: 14px;
+    overflow: hidden;
+}
+
+.aliapp a {
+    margin-left: 156px;
+    font-family: 宋体;
+}
+
+.aliapp-bd img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+    overflow: hidden;
+}
+
+
+/* 侧边栏模块 */
+
+.slider-bar {
+    position: absolute;
+    left: 50%;
+    top: 514px;
+    margin-left: 600px;
+    width: 50px;
+    height: 300px;
+    background-color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.slider-bar li {
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: 宋体;
+    line-height: 17px;
+    border:0.1px solid #efefef;
+}
+
+.slider-bar .tool1{
+    color: #ff0055;
+}
+.slider-bar .tool2{
+    color: ff0055;
+}
+.slider-bar .tool3{
+    color: #8d7afb;
+}
+    
+.slider-bar .tool4{
+    color: #a8c001;
+}
+.slider-bar .tool5{
+    color: #ff4400;
+}
+.slider-bar .tool6{
+    color: #3c3c3c;
+}
+.goback {
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: 宋体;
+    line-height: 17px;
+    background-color: #fff;
+    border-top:0.1px solid  #efefef;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* 有好货 爱逛街 模块 */
+.youai {
+    margin-top: 5px;
+    height: 674px;
+}
+
+/* 有好货 模块 */
+.youhaohuo {
+    float: left;
+    margin-top: 5px;
+    width: 590px;
+    height: 658px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.youhaohuo h3,
+.aiguangjie h3 {
+    overflow: hidden;
+    float: left;
+    margin-top: 18px;
+    margin-left: 19px;
+    width: 570px;
+    overflow: hidden;
+}
+
+.youhaohuo h3 img,
+.aiguangjie h3 img {
+    float: left;
+    width: 74px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.youhaohuo h3 p {
+    float: left;
+    margin-left: 8px;
+    height: 29px;
+    overflow: hidden;
+}
+
+.youhaohuo h3 .iconfont {
+    line-height: 32px;
+    font-size: 22px;
+    color: #999999;
+}
+
+.youhaohuo h3 span,
+.aiguangjie h3 span {
+    float: left;
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 24px;
+    font-family: 宋体;
+    color: #999999;
+    overflow: hidden;
+}
+
+.hh1 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 21px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.info {
+    margin-top: 9px;
+}
+
+.info h4 {
+    margin: 0 2px;
+    /* 强制在一行显示 */
+    white-space: nowrap;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 宋体;
+}
+
+.info .h4p {
+    padding: 4px 0;
+    margin: 0 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    color: #99a6c4;
+}
+
+.info .info-a {
+    display: block;
+    margin-top: 10px;
+    line-height: 22px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 宋体;
+    color: #35c2ff;
+}
+
+.hh2 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 4px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.hh3 {
+    float: left;
+    margin-top: 35px;
+    margin-left: 21px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.hh4 {
+    float: left;
+    margin-top: 35px;
+    margin-left: 4px;
+    width: 180px;
+    overflow: hidden;
+}
+
+/* 爱狂街模块 */
+.aiguangjie {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 590px;
+    height: 658px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* 每日好店 淘宝直播 模块  */
+
+.shop-inner {
+    float: left;
+    margin-top: 10px;
+    width: 590px;
+    height: 540px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.shop-inner h3,
+.live h3 {
+    overflow: hidden;
+    float: left;
+    margin-top: 18px;
+    margin-left: 19px;
+    width: 570px;
+}
+
+.shop-inner h3 img,
+.live h3 img {
+    overflow: hidden;
+    float: left;
+    width: 74px;
+    height: 24px;
+}
+
+.shop-inner h3 span,
+.live h3 span {
+    float: left;
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 24px;
+    font-family: 宋体;
+    color: #999999;
+    overflow: hidden;
+}
+
+ .shop1 {
+    float: left;
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 270px;
+    height: 222px;
+    overflow: hidden;
+}
+
+h4 .title {
+    float: left;
+    margin-top: 2px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 宋体;
+    overflow: hidden;
+}
+
+.subtitle {
+    float: left;
+    margin-top: 4px;
+    margin-left: 9px;
+    /* 强制在一行显示 */
+    white-space: nowrap;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    width: 118px;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: 宋体;
+    color: #999999;
+    overflow: hidden;
+}
+
+.shop-inner .shop-gengduo {
+    float: right;
+    margin-right: 16px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.shop-img1 img,
+.shop-img2 img,
+.shop-img3 img {
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.shop-img1 img {
+    margin-top: 9px;
+    width: 180px;
+    height: 183px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.shop-img2 img,
+.shop-img3 img {
+    width: 89px;
+    height: 89px;
+}
+
+.shop-img2 img {
+    margin-top: 11px;
+}
+
+.shop-img3 img {
+    margin-top: 2px;
+}
+
+.shop2 {
+    float: left;
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 270px;
+    height: 222px;
+    overflow: hidden;
+}
+
+.shop3 {
+    float: left;
+    margin-top: 28px;
+    margin-left: 18px;
+    width: 270px;
+    height: 222px;
+    overflow: hidden;
+}
+
+/* 淘宝直播板块 */
+
+.live{
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 590px;
+    height: 540px;
+    background-color: #fff;
+   
+}
+
+ /* 时尚爆料王 start */
+.fashion {
+    float: left;
+    width: 834px;
+    height: 284px;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.fashion h3 {
+    float: left;
+    margin: 15px 0 0 10px;
+    padding-bottom: 12px;
+    width: 100%;
+    font-size: 19px;
+    font-family: 宋体;
+    color: #ad45e5;
+    border-bottom: 1px solid #f4f4f4;
+    overflow: hidden;
+
+}
+
+.list {
+    float: left;
+}
+
+.list .item{
+    width: 278px;
+    border: 1px solid transparent;
+    border-right: 1px solid #f4f4f4;
+    border-bottom-color: #fff;
+    float: left;
+    height: 234px;
+    overflow: hidden;
+}
+
+.fashion .list .item.last {
+    border-right-color: #fff;
+}
+
+.item h4 {
+    margin: 28px 0 0 18px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 宋体;
+    color: #3C3C3C;
+}
+
+.item p{
+    margin: 4px 0 0 17px;
+    font-size: 11px;
+    font-family: 宋体;
+    color: #999999;
+}
+.item-img {
+    float: left;
+    margin: 8px 0 0 10px;
+    overflow: hidden;
+}
+.item-img a img{
+    width: 120px;
+    height: 120px;
+}
+
+.xizhuang a img{
+    float: right;
+    width: 316px;
+    height: 286px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    margin: 9px 30px 0 0;
+    padding: 22px;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 200px;
+    margin-top: 1575px;
+    background-color: #666666;
+}

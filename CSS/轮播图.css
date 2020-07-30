@@ -1,0 +1,84 @@
+.focus {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 520px;
+    height: 280px;
+    background-color: purple;
+    overflow: hidden;
+    list-style: none;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500%;
+}
+
+.focus ul li {
+    float: left;
+    list-style: none;
+}
+
+.focus ul li a img{
+    width: 520px;
+    height: 280px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.arrow-r {
+    right: 0;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.arrow-l {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.circle {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 235px;
+    color: #fff;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 1px solid #fff;
+    margin: 0 4px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+    list-style: none;
+}
+
+.current {
+    background-color: #ff5000;
+}
+.sty li{
+    right: -50px;
+}
